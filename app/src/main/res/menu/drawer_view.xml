@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/parcelList"
+            android:checked="true"
+            android:icon="@drawable/ic_parcel_list"
+            android:title="Parcel list" />
+
+        <item
+            android:id="@+id/liveLocation"
+            android:icon="@drawable/ic_live_location"
+            android:title="Live location" />
+
+        <item android:title="Settings">
+            <menu>
+                <item
+                    android:id="@+id/apiData"
+                    android:icon="@drawable/ic_api_data"
+                    android:title="API Data" />
+            </menu>
+
+        </item>
+    </group>
+
+</menu>
